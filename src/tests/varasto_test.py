@@ -78,6 +78,6 @@ class TestVarasto(unittest.TestCase):
     def test_varasto_olio_tulostuu_oikein(self):
         self.varasto.lisaa_varastoon(8)
 
-        merkkijono = "saldo = 8, vielä tilaa 1"
+        merkkijono = "saldo = 8, vielä tilaa 2"
 
         self.assertEqual(str(self.varasto), merkkijono)
